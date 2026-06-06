@@ -7,14 +7,14 @@ export default function FocusBrainLanding() {
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-blue-950 to-slate-900 text-white overflow-hidden">
       {/* Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-sm border-b border-blue-500/20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-xs font-bold">FB</div>
-            <span className="text-lg font-semibold">FocusBrain</span>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 flex items-center justify-between">
+          <div className="flex items-center gap-1.5 sm:gap-2">
+            <div className="w-7 sm:w-8 h-7 sm:h-8 bg-blue-500 rounded-full flex items-center justify-center text-xs font-bold">FB</div>
+            <span className="text-base sm:text-lg font-semibold">FocusBrain</span>
           </div>
           <button
             onClick={handleCTA}
-            className="px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-blue-500/50"
+            className="px-4 sm:px-6 py-1.5 sm:py-2 bg-blue-500 hover:bg-blue-600 text-white text-xs sm:text-sm rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-blue-500/50"
           >
             Get Access
           </button>
@@ -22,52 +22,52 @@ export default function FocusBrainLanding() {
       </nav>
 
       {/* Hero Section */}
-      <div className="pt-32 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
+      <div className="pt-24 sm:pt-32 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center mb-16 md:mb-20">
           {/* Left Side - Copy */}
-          <div className="space-y-8">
-            <div className="space-y-4">
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-500/10 border border-blue-500/30 rounded-full">
-                <span className="text-blue-400 text-sm font-semibold">FOUNDER LAUNCH • $12.99</span>
+          <div className="space-y-6 md:space-y-8">
+            <div className="space-y-3 md:space-y-4">
+              <div className="inline-flex items-center gap-2 px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/10 border border-blue-500/30 rounded-full text-xs md:text-sm">
+                <span className="text-blue-400 font-semibold">FOUNDER LAUNCH • $12.99</span>
               </div>
 
-              <h1 className="text-5xl sm:text-6xl font-bold leading-tight">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
                 You know exactly what's wrong.
                 <span className="text-blue-400 block">You just don't know how to fix it.</span>
               </h1>
 
-              <p className="text-xl text-slate-300 leading-relaxed">
+              <p className="text-base sm:text-lg md:text-xl text-slate-300 leading-relaxed">
                 Your mind is constantly jumping between ideas. Your projects pile up unfinished. And the worst part? You know you're capable of more. You're not lazy. You're fragmented. That ends here.
               </p>
             </div>
 
             {/* Value Proposition Quick */}
-            <div className="space-y-3 pt-4">
-              <div className="flex items-start gap-3">
-                <span className="text-blue-400 text-xl font-bold">→</span>
-                <p className="text-slate-200">A proven framework that closes the mental loops draining your energy daily</p>
+            <div className="space-y-2.5 md:space-y-3 pt-2 md:pt-4">
+              <div className="flex items-start gap-2 md:gap-3">
+                <span className="text-blue-400 text-lg md:text-xl font-bold mt-0.5 flex-shrink-0">→</span>
+                <p className="text-slate-200 text-sm md:text-base">A proven framework that closes the mental loops draining your energy daily</p>
               </div>
-              <div className="flex items-start gap-3">
-                <span className="text-blue-400 text-xl font-bold">→</span>
-                <p className="text-slate-200">The 15-minute ritual that prevents your mind from scattering every single morning</p>
+              <div className="flex items-start gap-2 md:gap-3">
+                <span className="text-blue-400 text-lg md:text-xl font-bold mt-0.5 flex-shrink-0">→</span>
+                <p className="text-slate-200 text-sm md:text-base">The 15-minute ritual that prevents your mind from scattering every single morning</p>
               </div>
-              <div className="flex items-start gap-3">
-                <span className="text-blue-400 text-xl font-bold">→</span>
-                <p className="text-slate-200">A clear path to actually finishing something before the next idea takes over</p>
+              <div className="flex items-start gap-2 md:gap-3">
+                <span className="text-blue-400 text-lg md:text-xl font-bold mt-0.5 flex-shrink-0">→</span>
+                <p className="text-slate-200 text-sm md:text-base">A clear path to actually finishing something before the next idea takes over</p>
               </div>
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-6">
+            <div className="flex flex-col sm:flex-row gap-3 pt-4 md:pt-6">
               <button
                 onClick={handleCTA}
-                className="px-8 py-4 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-bold text-lg transition-all duration-300 shadow-lg hover:shadow-blue-500/50 flex items-center justify-center gap-2"
+                className="px-6 md:px-8 py-3 md:py-4 bg-blue-500 hover:bg-blue-600 text-white text-sm md:text-base rounded-lg font-bold transition-all duration-300 shadow-lg hover:shadow-blue-500/50 flex items-center justify-center gap-2 w-full sm:w-auto"
               >
                 Get Access Now
               </button>
               <button
                 onClick={handleCTA}
-                className="px-8 py-4 border-2 border-slate-400 hover:border-blue-400 text-slate-200 hover:text-white rounded-lg font-semibold transition-all duration-300"
+                className="px-6 md:px-8 py-3 md:py-4 border-2 border-slate-400 hover:border-blue-400 text-slate-200 hover:text-white text-sm md:text-base rounded-lg font-semibold transition-all duration-300 w-full sm:w-auto"
               >
                 See What's Inside
               </button>
@@ -86,10 +86,10 @@ export default function FocusBrainLanding() {
       </div>
 
       {/* The Problem Section - Visual */}
-      <div className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto py-20 border-t border-blue-500/20">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl sm:text-5xl font-bold mb-4">The Cycle You Can't Escape</h2>
-          <p className="text-lg text-slate-400 max-w-2xl mx-auto">You're not lazy. Your system is.</p>
+      <div className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto py-12 sm:py-20 border-t border-blue-500/20">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4">The Cycle You Can't Escape</h2>
+          <p className="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto">You're not lazy. Your system is.</p>
         </div>
 
         {/* Image Container */}
@@ -103,41 +103,41 @@ export default function FocusBrainLanding() {
 
         {/* Comparison Table */}
         <div className="max-w-4xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-2 gap-4 md:gap-6">
             {/* Before Column */}
-            <div className="rounded-2xl overflow-hidden border-2 border-red-500/40 bg-gradient-to-br from-red-950/30 to-slate-900/30">
-              <div className="bg-red-500/20 border-b border-red-500/30 px-6 py-4">
-                <h3 className="text-2xl font-bold text-red-400 flex items-center gap-2">
-                  <span className="text-2xl">⚠️</span> The Before
+            <div className="rounded-xl md:rounded-2xl overflow-hidden border-2 border-red-500/40 bg-gradient-to-br from-red-950/30 to-slate-900/30">
+              <div className="bg-red-500/20 border-b border-red-500/30 px-4 md:px-6 py-3 md:py-4">
+                <h3 className="text-xl md:text-2xl font-bold text-red-400 flex items-center gap-2">
+                  <span className="text-xl md:text-2xl">⚠️</span> The Before
                 </h3>
               </div>
-              <div className="p-6 space-y-4">
+              <div className="p-4 md:p-6 space-y-3 md:space-y-4">
                 <div className="space-y-2">
-                  <p className="font-semibold text-slate-300">Overwhelmed State:</p>
-                  <ul className="space-y-2 text-sm text-slate-400">
+                  <p className="font-semibold text-slate-300 text-sm md:text-base">Overwhelmed State:</p>
+                  <ul className="space-y-1.5 md:space-y-2 text-xs md:text-sm text-slate-400">
                     <li className="flex gap-2">
-                      <span className="text-red-400">✕</span>
+                      <span className="text-red-400 flex-shrink-0">✕</span>
                       <span>47 unfinished ideas</span>
                     </li>
                     <li className="flex gap-2">
-                      <span className="text-red-400">✕</span>
+                      <span className="text-red-400 flex-shrink-0">✕</span>
                       <span>Constantly changing direction</span>
                     </li>
                     <li className="flex gap-2">
-                      <span className="text-red-400">✕</span>
+                      <span className="text-red-400 flex-shrink-0">✕</span>
                       <span>Mental clutter & scattered focus</span>
                     </li>
                     <li className="flex gap-2">
-                      <span className="text-red-400">✕</span>
+                      <span className="text-red-400 flex-shrink-0">✕</span>
                       <span>Endless overthinking</span>
                     </li>
                     <li className="flex gap-2">
-                      <span className="text-red-400">✕</span>
+                      <span className="text-red-400 flex-shrink-0">✕</span>
                       <span>Lost confidence</span>
                     </li>
                   </ul>
                 </div>
-                <div className="pt-4 border-t border-red-500/20">
+                <div className="pt-3 md:pt-4 border-t border-red-500/20">
                   <p className="text-xs text-red-400/70 italic">
                     "Every unfinished project keeps a mental tab open. Your brain holds the burden."
                   </p>
@@ -146,39 +146,39 @@ export default function FocusBrainLanding() {
             </div>
 
             {/* After Column */}
-            <div className="rounded-2xl overflow-hidden border-2 border-blue-500/40 bg-gradient-to-br from-blue-950/30 to-slate-900/30">
-              <div className="bg-blue-500/20 border-b border-blue-500/30 px-6 py-4">
-                <h3 className="text-2xl font-bold text-blue-400 flex items-center gap-2">
-                  <span className="text-2xl">⚡</span> The After
+            <div className="rounded-xl md:rounded-2xl overflow-hidden border-2 border-blue-500/40 bg-gradient-to-br from-blue-950/30 to-slate-900/30">
+              <div className="bg-blue-500/20 border-b border-blue-500/30 px-4 md:px-6 py-3 md:py-4">
+                <h3 className="text-xl md:text-2xl font-bold text-blue-400 flex items-center gap-2">
+                  <span className="text-xl md:text-2xl">⚡</span> The After
                 </h3>
               </div>
-              <div className="p-6 space-y-4">
+              <div className="p-4 md:p-6 space-y-3 md:space-y-4">
                 <div className="space-y-2">
-                  <p className="font-semibold text-slate-300">Unstoppable State:</p>
-                  <ul className="space-y-2 text-sm text-slate-300">
+                  <p className="font-semibold text-slate-300 text-sm md:text-base">Unstoppable State:</p>
+                  <ul className="space-y-1.5 md:space-y-2 text-xs md:text-sm text-slate-300">
                     <li className="flex gap-2">
-                      <span className="text-blue-400">✓</span>
+                      <span className="text-blue-400 flex-shrink-0">✓</span>
                       <span>One clear direction</span>
                     </li>
                     <li className="flex gap-2">
-                      <span className="text-blue-400">✓</span>
+                      <span className="text-blue-400 flex-shrink-0">✓</span>
                       <span>Better decisions</span>
                     </li>
                     <li className="flex gap-2">
-                      <span className="text-blue-400">✓</span>
+                      <span className="text-blue-400 flex-shrink-0">✓</span>
                       <span>Consistent action & momentum</span>
                     </li>
                     <li className="flex gap-2">
-                      <span className="text-blue-400">✓</span>
+                      <span className="text-blue-400 flex-shrink-0">✓</span>
                       <span>Real, measurable progress</span>
                     </li>
                     <li className="flex gap-2">
-                      <span className="text-blue-400">✓</span>
+                      <span className="text-blue-400 flex-shrink-0">✓</span>
                       <span>Finished projects</span>
                     </li>
                   </ul>
                 </div>
-                <div className="pt-4 border-t border-blue-500/20">
+                <div className="pt-3 md:pt-4 border-t border-blue-500/20">
                   <p className="text-xs text-blue-400/70 italic">
                     "You close the loops. Your mind is free. You finish what you start."
                   </p>
@@ -188,9 +188,9 @@ export default function FocusBrainLanding() {
           </div>
 
           {/* The Difference */}
-          <div className="mt-8 text-center">
-            <div className="inline-block px-8 py-4 bg-gradient-to-r from-blue-500/20 to-purple-500/20 border border-blue-500/40 rounded-xl">
-              <p className="text-lg font-semibold text-slate-200">
+          <div className="mt-6 md:mt-8 text-center">
+            <div className="inline-block px-6 md:px-8 py-3 md:py-4 bg-gradient-to-r from-blue-500/20 to-purple-500/20 border border-blue-500/40 rounded-lg md:rounded-xl">
+              <p className="text-base md:text-lg font-semibold text-slate-200">
                 <span className="text-blue-400">The difference?</span> A system that actually works.
               </p>
             </div>
