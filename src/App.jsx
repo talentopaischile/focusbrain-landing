@@ -360,10 +360,10 @@ export default function FocusBrainLanding() {
                 <span className="text-blue-400 font-bold text-lg">→</span> No subscription. No recurring charges.
               </p>
               <p className="flex items-center gap-3 text-slate-200">
-                <span className="text-blue-400 font-bold text-lg">→</span> Lifetime updates. Forever.
+                <span className="text-blue-400 font-bold text-lg">→</span> Lifetime
               </p>
               <p className="flex items-center gap-3 text-slate-200">
-                <span className="text-blue-400 font-bold text-lg">→</span> 30-day money back guarantee. No questions.
+                <span className="text-blue-400 font-bold text-lg">→</span> 7-day money back guarantee
               </p>
             </div>
 
