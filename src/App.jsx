@@ -28,7 +28,7 @@ export default function FocusBrainLanding() {
           <div className="space-y-6 md:space-y-8">
             <div className="space-y-3 md:space-y-4">
               <div className="inline-flex items-center gap-2 px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/10 border border-blue-500/30 rounded-full text-xs md:text-sm">
-                <span className="text-blue-400 font-semibold">FOUNDER LAUNCH • $15</span>
+                <span className="text-blue-400 font-semibold">FOUNDER LAUNCH • $15 USD</span>
               </div>
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
