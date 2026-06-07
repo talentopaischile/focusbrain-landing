@@ -348,7 +348,7 @@ export default function FocusBrainLanding() {
             </div>
 
             <p className="text-slate-400 text-sm mb-1">
-              <span className="line-through text-slate-500">$19.99</span> regular price
+              <span className="line-through text-slate-500">$47</span> regular price
             </p>
             <p className="text-slate-500 text-xs mb-8">Limited time. Founder pricing.</p>
 
